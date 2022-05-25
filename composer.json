@@ -8,12 +8,14 @@
             "email": "janusa.maia@gamil.com"
         }
     ],
+    "license": "GPL-3.0",
     "require": {
         "guzzlehttp/guzzle": "^7.4",
         "symfony/dom-crawler": "^5.0",
         "symfony/css-selector": "^5.4"
     },
     "autoload": {
+        "files": ["./functions.php"],
         "psr-4": {
             "Alura\\BuscadorDeCursos\\" : "src/"
         }
@@ -40,5 +42,6 @@
 
     "scripts-descriptions": {
         "check": "Roda as verificações de código PHAN, PHPCS, PHPUNIT"
-    }
+    },
+    "bin": ["buscar-cursos"]
 }
