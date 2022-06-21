@@ -10,7 +10,7 @@
     ],
     "license": "GPL-3.0",
     "require": {
-        "guzzlehttp/guzzle": "7.4.4",
+        "guzzlehttp/guzzle": "7.4.5",
         "symfony/dom-crawler": "^5.0",
         "symfony/css-selector": "^5.4"
     },
